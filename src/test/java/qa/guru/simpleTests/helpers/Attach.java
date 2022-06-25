@@ -1,6 +1,5 @@
 package qa.guru.simpleTests.helpers;
 
-import com.codeborne.selenide.Browser;
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
@@ -43,16 +42,18 @@ public class Attach {
                 + getVideoUrl()
                 + "' type='video/mp4'></video></body></html>";
     }
+
     public static URL getVideoUrl() {
         String videoURL = "https://selenoid.autotests.cloud/video/" + getSessionId() + ".mp4";
         try {
             return new URL(videoURL);
-        } catch (MalformedURLException e){
+        } catch (MalformedURLException e) {
             e.printStackTrace();
         }
         return null;
     }
-    public static String getSessionId(){
+
+    public static String getSessionId() {
         return ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
     }
 

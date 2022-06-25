@@ -10,7 +10,6 @@ public class PracticeFormWithPageObjectTests extends TestBaseWithPageObject {
 
     PracticeFormPage practiceFormPage = new PracticeFormPage();
 
-    @Disabled
     @Test
     void successfulTestPracticeForm() {
 

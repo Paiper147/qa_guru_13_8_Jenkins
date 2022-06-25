@@ -1,5 +1,6 @@
 package qa.guru.simpleTests.demoqa;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -10,6 +11,7 @@ import static io.qameta.allure.Allure.step;
 
 public class PracticeFormTests extends TestBase {
 
+    @Disabled
     @Test
     @DisplayName("Successful registration test")
     void successfulTestPracticeForm() {
