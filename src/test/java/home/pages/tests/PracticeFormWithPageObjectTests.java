@@ -1,7 +1,6 @@
 package home.pages.tests;
 
 import home.pages.PracticeFormPage;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;

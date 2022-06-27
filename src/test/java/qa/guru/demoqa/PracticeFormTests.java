@@ -1,4 +1,4 @@
-package qa.guru.simpleTests.demoqa;
+package qa.guru.demoqa;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;

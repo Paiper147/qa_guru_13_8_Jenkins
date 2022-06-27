@@ -1,4 +1,4 @@
-package qa.guru.simpleTests.demoqa.components;
+package qa.guru.demoqa.components;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
