@@ -1,8 +1,8 @@
 package home.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import qa.guru.demoqa.components.CalendarComponent;
-import qa.guru.demoqa.components.ResultsTableComponent;
+import home.components.CalendarComponent;
+import home.components.ResultsTableComponent;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;

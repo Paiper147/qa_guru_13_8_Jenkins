@@ -11,7 +11,7 @@ import static io.qameta.allure.Allure.step;
 
 public class PracticeFormTests extends TestBase {
 
-    @Disabled
+//    @Disabled
     @Test
     @DisplayName("Successful registration test")
     void successfulTestPracticeForm() {
